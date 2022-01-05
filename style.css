@@ -2,71 +2,98 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    display: block;
+}
 h1{
     font-size: 50px;
-}
-h3{
-    color: orange;
 }
 h2{
     font-size: 40px;
 }
-.orange-color{
+h1 span{
     color: orange;
 }
-.fixible-continaer{
+.section-1{
     display: flex;
-    margin-bottom: 150px;
 }
-.half-width{
-    width: 50%;
+.div-1{
+    width: 40%;
+    margin-left: 5%;
     padding-left: 2%;
+    float: left;
 }
-.half-width img{
-    width: 80%;
+.div-2{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
-    border-radius: 5px; 
-    padding: 10px 40px;
-    color: white;
-    font-weight: 700;
+.div-2 img{
+    width: 100%;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
+.div-3{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left; 
+}
+.div-3 img{
+    width: 100%;
+}
+.div-4{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.div-5{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.section-1{
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+.section-2{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.experience-item{
-    width: 40%;
-    box-shadow: 10px 10px 40px gray;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-   
-    border-radius: 5px;
+.section-3 div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
 }
-.experience-area{
+.section-3{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    
 }
-#web{
-    border-left: 5px solid ;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+.button-1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700; 
 }
-#web0{
-    border-left: 5px solid ;
-    border-image: linear-gradient(orange, tomato);
-    border-image-slice: 1;
+#border{
+    border-left: 5px solid;
+    border-radius:5px;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1
+}
+#border-2{
+    border-left: 5px solid;
+    border-radius:5px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1
 }
 footer p{
     text-align: center;
+    color: dimgray;
 }
